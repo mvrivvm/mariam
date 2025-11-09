@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metallic ERP Support Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#c09a3e',
+              'brand-secondary': '#d4af37',
+              'brand-accent': '#c09a3e',
+              'neutral-dark': '#ffffff',
+              'neutral-medium': '#f9fafb',
+              'neutral-light': '#f3f4f6',
+              'neutral-extralight': '#e5e7eb',
+              'status-open': '#FBBF24',
+              'status-progress': '#3B82F6',
+              'status-wait': '#6B7280',
+              'status-reject': '#EF4444',
+              'status-completed': '#22C55E',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-neutral-dark text-gray-800">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

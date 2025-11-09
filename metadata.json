@@ -1,0 +1,5 @@
+{
+  "name": "Metallic ERP Support Hub",
+  "description": "A full-featured technical support application for Metallic ERP. Includes client and developer roles, a login system, and simulated automated email notifications. Clients submit tickets, and assigned developers manage them through a Kanban board, using AI to generate user-friendly resolution notes.",
+  "requestFramePermissions": []
+}
